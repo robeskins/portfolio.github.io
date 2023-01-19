@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+
+}
+
+.topnav{
+    background-color: rgb(6, 103, 127);
+    opacity: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    height: 3em;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8em;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 222, 233);
+
+}
+
+#education{
+    background-color: white;
+    padding: 1em;
+    width: 70em;
+    text-align: justify;
+}
+
+table{
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+td,tr{
+    border: 1px solid rgb(54, 53, 53);
+}
+
+.firstyear{
+    background-color: rgb(231, 236, 249);
+}
+
+.secondyear{
+    background-color: rgb(231, 249, 235);
+
+}
+
+.thirdyear{
+    background-color: rgb(249, 233, 231);
+}
+
+.backimg{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 222, 233);
+}
+
+.banner{
+    height: 15em;
+    width: 72em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Users/robeskins/Downloads/grad.PNG);
+    display: flex;
+    align-items: center;
+    
+}
+
+.ban{
+    
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    background-color:rgba(255,255,255,0);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ban a{
+    color: white;
+    text-decoration: none;
+}
+
+.ban a:hover{
+    color: black;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    width: 18em;
+    height: 25em;
+    background-color: rgb(196, 214, 233);
+    border: solid black 0.05em;
+    padding: 1em;
+    color: black;
+}
+
+.square:hover{
+    background-color: rgb(125, 174, 222);
+    transition: 0.3s;
+    align-items: flex-start;
+
+}
+
+.squarecontent{
+    display: none;
+    line-height: 1.1em;
+}
+
+.squaretitle{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    height: 4em;
+    background-color: rgb(6, 103, 127);
+    opacity: 0.9;
+    color: white;
+    padding-left: 1em;
+}
