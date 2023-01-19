@@ -13,13 +13,13 @@ for(let i = 0; i < square.length; i++){
 
 for(let i = 0; i < square.length; i++){
     square[i].addEventListener('mouseenter', function handleClick(event) {
-        squarecontent[i].setAttribute('style', 'display: inline;');
+        squarecontent[i].setAttribute('style', 'display: block;');
     });
 };
 
 for(let i = 0; i < square.length; i++){
     square[i].addEventListener('mouseleave', function handleClick(event) {
-        squaretitle[i].setAttribute('style', 'display: inline;');
+        squaretitle[i].setAttribute('style', 'display: block;');
     });
 };
 
